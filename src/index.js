@@ -10,6 +10,7 @@ import ComponenteComFuncao from './components/ComponenteComFuncao';
 import Pai from './components/Pai';
 import ComponenteClasse from './components/ComponenteClasse';
 import Contador from './components/Contador';
+import Hooks from './components/Hooks';
 
 const elemento = document.getElementById('root');
 ReactDOM.render(
@@ -28,5 +29,6 @@ ReactDOM.render(
         <ComponenteClasse valor="Classe: Valor passado por props"></ComponenteClasse>
         <ComponenteClasse></ComponenteClasse>
         <Contador numeroInicial={100}></Contador>
+        <Hooks></Hooks>
     </div>
 , elemento);
